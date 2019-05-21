@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../scss/style.scss'
 
 class Square extends Component {
 	render(){
