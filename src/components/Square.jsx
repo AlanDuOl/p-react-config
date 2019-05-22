@@ -5,7 +5,7 @@ class Square extends Component {
 	render(){
 		return (
 			<div>
-				<p> I will be a square </p>
+				<p>I will be a square or not</p>
 			</div>
 		);
 	}
