@@ -7,7 +7,6 @@ const htmlPlugin = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-	
 	// webpack-dev-server will monitor the code dependency
 	// of these entry points, and re-create the bundle
 	// when changes are detected. In this example, the main
@@ -38,7 +37,8 @@ module.exports = {
 		// prefixed with the 'publicPath', e.g.:
 		//   <script src='http://localhost:9001/assets/bundle.js'>
 		//   </script>
-		publicPath: path.resolve(__dirname, "public"),
+		//Must set to "/"
+		publicPath: path.resolve(__dirname, "/"),
 		
 		// The local filesystem directory where static html files
 		// should be placed.

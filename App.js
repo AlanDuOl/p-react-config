@@ -4,7 +4,7 @@ import Square from './src/components/Square.jsx'
 class App extends Component {
 	render(){
 		return (
-			<Square></Square>
+			<Square />
 		);
 	}
 }
